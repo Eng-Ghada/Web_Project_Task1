@@ -3,3 +3,24 @@
     border-radius: 10%;
     padding: 20px;
 }
+
+
+#ghadaSec
+{
+    background-color: rgb(16, 24, 44);
+    width: 30px;
+    height: 5px;
+    color: chocolate;
+    
+}
+
+#ghadaSec img,#ghadaSec p,#ghadaSec h1,#ghadaSec h2
+{
+    display: none;
+    
+}
+
+img
+{
+    height: 300px;
+}
