@@ -1,0 +1,236 @@
+#HOME{
+   height: 100vh;
+   background-image: url(../image/2.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+  background-size: 100% 100% ;
+  background-position: center;
+  background-repeat: no-repeat;
+   
+}
+/* .home-img{
+  height: 100vh;
+  background-image: url(../image/2.jpg);
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  
+    background-attachment: fixed;
+  background-size: 100% 100% ;
+  background-color: rgba(0, 0, 0, 1);
+  
+  position: fixed;
+} */
+ 
+ 
+.container{
+    margin: auto;
+    text-align: center;
+}
+#HOME .container .title{
+    color: #fff;
+    font-weight: 600;
+    font-size: 72px;
+   
+
+    
+}
+.typewriter{
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+   justify-content: center;
+    
+}
+.typewriter:before{border-right:2px solid red;
+    content:"";
+    display: inline-block;
+    overflow: hidden;
+    font-size: 40px;
+    width:7em;
+    white-space: nowrap;
+    }
+    
+    .animated:before{animation:textCursor 500ms steps(14) infinite normal,
+      typewriter 15s steps(20) 1s infinite alternate;
+    
+    }
+    
+    
+    @keyframes textCursor{
+      from{border-color:(255,255,255,.75)}
+      to{border-color:transparent}
+    }
+    
+    
+    @keyframes typewriter{
+      0%{width:0;content:"web developer"}
+      10%{width:8em;content:"web developer"}
+      20%{width:0;content:"web developer"}
+      30%{width:8em;content:"web designer"}
+      45%{width:0;content:"web designer"}
+      55%{width:0;content:"Frontend developer"}
+      65%{width:8em;content:"Frontend developer"}
+      75%{width:0;content:"Frontend developer"}
+      85%{width:0;content:"CEO DevFolio"}
+      100%{width:8em;content:"CEO DevFolio"}
+      
+    }
+    
+#ABOUT {
+   
+  background-color: #f5f5f5 ;
+  padding-top: 70px;
+  
+}
+#ABOUT .total-about{
+  padding-bottom: 30px;
+  padding-top: 50px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.right{
+
+  text-align: left;
+}
+
+
+.right p{
+  font-size: 21px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: #4e4e4e;
+ }
+ .right h5{
+  font-size: 32px;
+   color: #1e1e1e;
+   margin-bottom: 40px;
+ }
+/* 
+.title ::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+} */
+
+.image-rounded{
+ 
+  border-radius: .25rem!important;
+
+}
+.p-about{
+  line-height: 2;
+}
+
+.fw{
+  font-size: 17.5px;
+  color: #1e1e1e;
+  font-weight: 500;
+  
+}
+.sw{
+  color: #4e4e4e;
+  font-size: 16px;
+  
+}
+.about-underline{
+  border-bottom: 3.4px solid#0078ff;
+    padding: 0 0 8px;
+  /* border-bottom:  #0078ff; */
+
+  /* text-decoration: underline;
+  text-decoration-color: #0078ff; */
+  
+}
+.skill{
+  /* margin-left: 40px; */
+  text-align: left;
+  color: #1e1e1e;
+  font-size: 17.5px;
+  font-weight: 500;
+  /* background-color: #0078ff; */
+  /* width: 400px; */
+}
+.skill-div{
+  margin-top: 40px;
+  margin-left: 40px;
+  
+
+}
+.progress{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.skill-span{
+  color: #4e4e4e;
+  word-spacing:400px;
+  
+}
+#SERVICES {
+  background-color: #f5f5f5 ;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+}
+#SERVICES .container {
+  background-color: #f5f5f5 ;
+  
+}
+.one ,.two ,.three 
+{
+  box-shadow:  0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 50px 40px;
+  /* margin: 5px; */
+  margin-bottom: 3rem;
+  border-radius:.75rem!important ;
+  background-color: #fff ;
+}
+
+#SERVICES .title-services{
+  background-color: #f5f5f5 ;
+ line-height: 35px;
+ padding-bottom: 50px;
+
+
+}
+.under-service{
+  border-bottom: 5px solid#0078ff;
+  padding: 0 0 8px;
+
+}
+#SERVICES .container h2{
+  font-size: 26px;
+  font-weight: 400;
+  color: #1e1e1e;
+}
+#SERVICES .container  i{
+  border: 10px solid rgb(0, 120, 255) !important;
+  color:#1e1e1e !important;
+  background-color: white!important;
+}
+#SERVICES .container  i:hover{
+  border: 10px solid #CDE1F8 !important;
+  color:white !important;
+  background-color:rgb(0, 120, 255)!important;
+}
+.navbar{
+
+  background-color: #090909 !important;
+  
+
+
+}
+
+.navbar .collapse .navbar-nav a{
+  color: white  !important ;
+}
+/* .fw::before{
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #0078ff;
+  content:'';
+} */
