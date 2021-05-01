@@ -24,3 +24,26 @@ img
 {
     height: 300px;
 }
+
+.mainImage img{
+    width: 270px ;
+    height: 142px;
+}
+.firstShape_BR img , .firstShape_TL img{
+ height: 73px;
+}
+.firstShape_BL img , .firstShape_TL img , .firstShape_BR img    {
+
+    width: 137px;
+}
+.firstShape_TR img{
+    width: 148px;
+    height: 150px;
+}
+.firstShape_BL img {
+    height: 150px;
+}
+.secondShape_BL img , .secondShape_BR img , .secondShape_TL img , .secondShape_TR img{
+    width: 136px;
+    height: 126px;
+}
